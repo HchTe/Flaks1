@@ -1,0 +1,55 @@
+<html>
+<head>
+{% block title %}
+{% endblock %}
+<div id="header">
+<h1>PC Store</h1>
+</div>
+</head>
+<body>
+<a href="/"><button> Начало </button></a>
+<p align=left>  
+
+    
+{% block model %} 
+{% endblock %}
+<img src="/static/lp3.jpg" width="250" height="200" />
+
+<ol>
+<li>AMD Ryzen 3 2200U (2.5/3.4 GHz, 4 MB)
+<li>AMD RX Vega 3
+<li>8GB DDR4 2133MHz
+<li>1TB SATA 5400rpm
+<li>120GB M.2 SSD
+<li>15,6" (1920x1080) матов дисплей
+</ol></p>
+<style>
+#header {
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:5px;
+}
+#nav {
+    line-height:30px;
+    background-color:#eeeeee;
+    height:300px;
+    width:100px;
+    float:left;
+    padding:5px; 
+}
+#section {
+    width:350px;
+    float:left;
+    padding:10px; 
+}
+#footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px; 
+}
+</style>
+</body>
+</html>
